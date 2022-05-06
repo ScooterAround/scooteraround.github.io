@@ -1,22 +1,13 @@
-/* Custom CSS made by SVN#7708 */
+/* Custom CSS made by irrvlo#6969 */
 /* This CSS was made with help from Dwizzen,
 /* the community snippets channel in the CSS Hub,
 /* and NizzQ's Public CSS - ty dwizzy ily
 /* This CSS is free to edit with credit to me */
 
 /* Updates */
-/* Last Updated: 4/9/2022 10:55PM CST
-/* Styled more stuff, new background, fixed weird discord button
-/* What's next?: Probably more orange/purple gradient stuff */
-
-/* Always On-Screen Crosshair */
-.crosshair-static[data-v-0f24d8f9] {
-    visibility: visible !important;
-    position: absolute;
-    display:flex !important;
-}
-
-
+/* Last Updated: 4/25/2022 6:42AM CST
+/* Fixed: join using url button is styled
+/* What's next?: If this css dies again, probably just fixes. For now, working on a new css */
 
 /* Custom Font */
 @font-face {
@@ -54,10 +45,10 @@
 
 /* Custom Logo */
 .interface .logo {
-    content: url(https://media.discordapp.net/attachments/956584843750293544/960566213166129263/My_project_11.png?width=676&height=676)
+    content: url(https://media.discordapp.net/attachments/962475357750042655/969957287605207060/My_project_10.png?width=676&height=676)
 }
 
-.logo[data-v-6bc918e5] {
+.interface .logo {
     top: 48.5rem;
     left: -90px;
 }
@@ -134,13 +125,13 @@
     background-color: #373737;
 }
 
-.select-mods-cont[data-v-6bc918e5] {
+.select-mods-cont[data-v-e0ea0f78] {
     background-color: #262626cf;
     backdrop-filter: blur(6px);
     border: 4px solid #303030;
 }
 
-.select-mods-cont[data-v-6bc918e5] {
+.select-mods-cont[data-v-e0ea0f78] {
     right: 326%;
     height: 780px;
     bottom: -70px;
@@ -150,7 +141,7 @@
     height: 630px!important;
 }
 
-hr[data-v-6bc918e5] {
+hr[data-v-e0ea0f78] {
     background-color: #1e347200;
     border: 3px solid #2f395700;
 }
@@ -404,7 +395,7 @@ hr[data-v-6bc918e5] {
     flex-direction: row !important;
 }
 
-.left-icons[data-v-6bc918e5] {
+.left-icons[data-v-e0ea0f78] {
     left: unset;
     top: 86%;
 }
@@ -536,7 +527,7 @@ hr[data-v-6bc918e5] {
     display: none;
 }
 
-.right-icons[data-v-6bc918e5] {
+.right-icons[data-v-e0ea0f78] {
     display: flex;
     flex-direction: row;
     right: 22%;
@@ -553,6 +544,12 @@ hr[data-v-6bc918e5] {
     background-color: #2b2b2ccf;
     backdrop-filter: blur(3px);
     border: 4px solid #26335b00;
+}
+
+.soc-group[data-v-56fb9d1c] {
+    background: #545f8100 !important;
+    border-top-color: #6a78a100 !important;
+    border-bottom-color: #383f5600 !important;
 }
 
 /* Clan Tag and Level Stuff */
@@ -723,17 +720,17 @@ hr[data-v-6bc918e5] {
 }
 
 .join-using-link {
-    background: rgba(55, 55, 55, .61);
-    backdrop-filter: blur(6px);
-    border-radius: 0.75rem;
-    border: 4px solid #fff0;
+    background: rgba(55, 55, 55, .61) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 0.75rem !important;
+    border: 4px solid #fff0 !important;
 }
 
 /* Button Locations (Thank you cvivic ily) */
-.moneys {
-    position: absolute;
-    left: 19.8%;
-    top: -615%;
+.moneys[data-v-e0ea0f78] {
+    display: flex;
+    margin-left: -318px;
+    margin-top: 10px;
 }
 
 #left-interface {
@@ -1209,4 +1206,66 @@ hr[data-v-6bc918e5] {
 
 .profile .you {
     visibility: hidden;
+}
+
+/* Fixes -  I don't feel like finding the old code and replacing it so this is where its being dumped */
+
+/* Player Stuff - Main Menu */
+
+.levels[data-v-a041910c] {
+    color: #ffffff;
+    background: #383838a6;
+}
+
+.clan-tag[data-v-a041910c] {
+    color: #ffffff;
+}
+
+/* Profile Card */
+
+.card[data-v-a8f654c2] {
+    background-color: #2f395700;
+}
+
+.stat-name[data-v-a8f654c2] {
+    color: #adacab;
+}
+
+.progress-level-value[data-v-a8f654c2] {
+    color: #ffffff;
+}
+
+/* Market */
+
+.loader[data-v-a7408f32], .subjects[data-v-a7408f32] {
+    background-color: #2f395700;
+    border: 0.25rem solid #3c4b6800;
+}
+
+/* News */
+
+.card[data-v-2e9c7bab] {
+    background-color: #32323200;
+}
+
+.head[data-v-2e9c7bab] {
+    background-color: #37477c00;
+}
+
+/* Settings */
+
+.header[data-v-418ade5e] {
+    color: #ffffff;
+}
+
+.box[data-v-418ade5e] {
+    border: 8px solid #343f6100;
+}
+
+/* Client Settings - (I hope this works, this is hard to edit on browser) */
+
+.soc-group[data-v-56fb9d1c] {
+    background: #545f8100!important;
+    border-top-color: #6a78a100!important;
+    border-bottom-color: #383f5600!important;
 }
