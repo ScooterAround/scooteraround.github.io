@@ -1,15 +1,12 @@
-@-moz-document url-prefix("https://kirka.io/") {
 /* Custom CSS made by irrvlo#6969 */
 /* This CSS was made with help from Dwizzen,
 /* the community snippets channel in the CSS Hub,
 /* and NizzQ's Public CSS - ty dwizzy ily
 /* This CSS is free to edit with credit to me */
-
 /* Updates */
 /* Last Updated: 4/25/2022 6:42AM CST
 /* Fixed: join using url button is styled
 /* What's next?: If this css dies again, probably just fixes. For now, working on a new css */
-
 /* Custom Font */
 @font-face {
     font-family: customFont;
@@ -174,19 +171,20 @@ hr[data-v-e0ea0f78] {
     background: #2f395700;
 }
 
-.loader[data-v-4f2bd40f], .subjects[data-v-4f2bd40f] {
+.loader[data-v-4f2bd40f],
+.subjects[data-v-4f2bd40f] {
     background-color: transparent;
     border: transparent;
 }
 
 /* Clan War */
 .card[data-v-5b2dc87c] {
-    background: linear-gradient(125deg, #ff3c3c,  rgba(255, 229, 58, .772));
+    background: linear-gradient(125deg, #ff3c3c, rgba(255, 229, 58, .772));
 }
 
 /* Leaderboard */
 .background-leaders[data-v-270b3af4] {
-    background: radial-gradient(39.55% 50% at 50% 50%, rgb(255, 229, 58),rgb(192 0 255 / 0%) 100%);
+    background: radial-gradient(39.55% 50% at 50% 50%, rgb(255, 229, 58), rgb(192 0 255 / 0%) 100%);
 }
 
 .lvl-leader[data-v-270b3af4] {
@@ -212,7 +210,8 @@ hr[data-v-e0ea0f78] {
     color: #ffffff;
 }
 
-.active[data-v-6641f93a], .nav[data-v-6641f93a]:hover {
+.active[data-v-6641f93a],
+.nav[data-v-6641f93a]:hover {
     color: rgb(255, 193, 58);
 }
 
@@ -223,7 +222,7 @@ hr[data-v-e0ea0f78] {
 }
 
 .gun[data-v-6171d983] {
-    background: linear-gradient(251.44deg,#262d4800 1.13%,#21273a00);
+    background: linear-gradient(251.44deg, #262d4800 1.13%, #21273a00);
 }
 
 .subjects[data-v-6171d983] {
@@ -255,7 +254,8 @@ hr[data-v-e0ea0f78] {
     border-right: solid 2px #2f395700;
 }
 
-.add[data-v-197190ba], .delete[data-v-197190ba] {
+.add[data-v-197190ba],
+.delete[data-v-197190ba] {
     background-color: #3c4b6800;
     border-left: solid 2px #2f395700;
 }
@@ -281,7 +281,7 @@ hr[data-v-e0ea0f78] {
 
 /* Servers */
 #view > div > div > div.content > div > div > div.chat-cont > div.chat.chat > div.messages.messages-cont.small {
-        background: rgb(47 57 87 / 0%) !important;
+    background: rgb(47 57 87 / 0%) !important;
 }
 
 .lvl[data-v-2baa780c] {
@@ -312,7 +312,8 @@ hr[data-v-e0ea0f78] {
     background-color: #2f395700;
 }
 
-.join-my-game-btn.rectangle, .join {
+.join-my-game-btn.rectangle,
+.join {
     background-color: #00000000 !important;
 }
 
@@ -321,7 +322,8 @@ hr[data-v-e0ea0f78] {
     color: #ffffff;
 }
 
-.active[data-v-c835fc7a], .tab[data-v-c835fc7a]:hover {
+.active[data-v-c835fc7a],
+.tab[data-v-c835fc7a]:hover {
     color: rgb(255, 229, 58);
 }
 
@@ -1047,7 +1049,7 @@ hr[data-v-e0ea0f78] {
 }
 
 .kill-bar-item[data-v-e06e1414] {
-    background: linear-gradient(45deg,  rgba(255, 60, 60, .44), rgba(255, 139, 25, .44), rgba(255, 229, 58, .44), rgba(73, 255, 54, .44), rgba(54, 186, 255, .44), rgba(129, 0, 177, .44));
+    background: linear-gradient(45deg, rgba(255, 60, 60, .44), rgba(255, 139, 25, .44), rgba(255, 229, 58, .44), rgba(73, 255, 54, .44), rgba(54, 186, 255, .44), rgba(129, 0, 177, .44));
 }
 
 .user-card[data-v-c2135fe4] {
@@ -1078,7 +1080,7 @@ hr[data-v-e0ea0f78] {
 }
 
 .progress[data-v-5aafd15a] {
-    background: linear-gradient(90deg,  #ff3c3c, #ff8b19, #ffe53a, #49ff36, #36baff, #8100b1) !important;
+    background: linear-gradient(90deg, #ff3c3c, #ff8b19, #ffe53a, #49ff36, #36baff, #8100b1) !important;
 }
 
 .lvl-leader[data-v-dbd87de6] {
@@ -1210,9 +1212,7 @@ hr[data-v-e0ea0f78] {
 }
 
 /* Fixes -  I don't feel like finding the old code and replacing it so this is where its being dumped */
-
 /* Player Stuff - Main Menu */
-
 .levels[data-v-a041910c] {
     color: #ffffff;
     background: #383838a6;
@@ -1223,7 +1223,6 @@ hr[data-v-e0ea0f78] {
 }
 
 /* Profile Card */
-
 .card[data-v-a8f654c2] {
     background-color: #2f395700;
 }
@@ -1237,14 +1236,13 @@ hr[data-v-e0ea0f78] {
 }
 
 /* Market */
-
-.loader[data-v-a7408f32], .subjects[data-v-a7408f32] {
+.loader[data-v-a7408f32],
+.subjects[data-v-a7408f32] {
     background-color: #2f395700;
     border: 0.25rem solid #3c4b6800;
 }
 
 /* News */
-
 .card[data-v-2e9c7bab] {
     background-color: #32323200;
 }
@@ -1254,7 +1252,6 @@ hr[data-v-e0ea0f78] {
 }
 
 /* Settings */
-
 .header[data-v-418ade5e] {
     color: #ffffff;
 }
@@ -1264,10 +1261,8 @@ hr[data-v-e0ea0f78] {
 }
 
 /* Client Settings - (I hope this works, this is hard to edit on browser) */
-
 .soc-group[data-v-56fb9d1c] {
     background: #545f8100!important;
     border-top-color: #6a78a100!important;
     border-bottom-color: #383f5600!important;
-}
 }
